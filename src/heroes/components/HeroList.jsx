@@ -1,20 +1,20 @@
 import { getHeroesByPublisher } from '../helpers/getHeroesByPublisher'
 
-export const HeroList = ({publisher}) => {
-  const heroes = getHeroesByPublisher(publisher);
+// eslint-disable-next-line react/prop-types
+export const HeroList = ({ publisher }) => {
   
+  const heroes = getHeroesByPublisher(publisher);
+
   return (
-    <>
       <ul>
         {
           heroes.map(hero => (
             <li key={hero.id}>
-              {hero.name}
+              {hero.superhero}
             </li>
           ))
         }
       </ul>
-    </>
   )
 }
 

@@ -4,7 +4,8 @@ const MarvelPage = () => {
   return (
     <div>
       <h1>Marvel</h1>
-      {/* <HeroList publisher={'marvel'}/> */}
+      <hr />
+      <HeroList publisher={'Marvel Comics'}/>
     </div>
   )
 }
