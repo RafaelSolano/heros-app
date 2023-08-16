@@ -22,7 +22,7 @@ const HeroPage = () => {
 
   return (
     <div className='row mt-5'>
-      <div className='col-4'>
+      <div className='col-4 animate__animated  animate__backInLeft'>
         <img
           className='img-thumbnail'
           src={`/assets/${heroId}.jpg`}

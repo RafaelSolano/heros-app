@@ -18,7 +18,7 @@ const HeroCard = ({
       <div className='col'>
         <div className='card'>
           <div className='raw no-gutters'>
-            <div className='col-4'>
+            <div className='col-4  '>
             <img src={heroimageUrl} alt={superhero} className='card-img' />
             </div>
             <div className='colo-8'>
