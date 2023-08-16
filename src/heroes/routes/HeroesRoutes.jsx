@@ -13,7 +13,7 @@ const HeroesRoutes = () => {
         <Routes>
           <Route path='marvel' element={<MarvelPage />} />
           <Route path='dc' element={<DcPages />} />
-          <Route path='hero' element={<HeroPage />} />
+          <Route path='hero/:heroId' element={<HeroPage />} />
           <Route path='search' element={<SearchPage />} />
 
 
